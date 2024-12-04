@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f0f8ff; /* Light blue background */
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #8e44ad, #3498db); /* Purple to Blue gradient */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Main Content */
+main {
+    margin: 80px 20px; /* Space for the fixed header */
+    text-align: center;
+}
+
+/* Search Container */
+.search-container {
+    margin: 20px 0;
+}
+
+#cityInput {
+    padding: 10px;
+    font-size: 1rem;
+    width: 200px;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #2980b9;
+}
+
+/* Weather Info */
+#weatherInfo {
+    margin-top: 30px;
+}
+
+#weatherInfo p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(90deg, #16a085, #27ae60); /* Teal to Green gradient */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
